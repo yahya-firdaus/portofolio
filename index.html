@@ -1,457 +1,342 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Yahya Firdaus</title>
-<!--
-Reflux Template
-https://templatemo.com/tm-531-reflux
--->
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Portofolio - Yahya Firdaus</title>
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
   </head>
-
   <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/pasfoto3.jpg" alt="" /></a>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Portofolio</a> -->
+            <a class="navbar-brand" href="index.html"><img src="images/user_photo.png" width="35px" height="35px"> Portofolio</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
             </div>
-            <div class="author-content">
-              <h4 style="font-size: 16pt;">Yahya Firdaus, S.Kom.</h4>
-              <span>yhy.frds@gmail.com</span>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Yahya Firdaus</span>
+                                    <span class="animated-item">Software Engineer</span>
+                                    <span class="animated-item">Backend Developer</span>
+                                </div>
+                        </h1>
+                        <br>
+                        <p>I am a graduate of the Computer Science program at the Universitas Pendidikan Indonesia. I have several years of experience in Back End development. I have an interest in NLP and Big Data. I am proficient in programming languages such as PHP, Python, Java, Javascript, Go, and C#, as well as several frameworks including Laravel, Echo, Django, and Flask. In my experience, I have had the opportunity to work with many people and adapt easily to different roles, whether as part of a team or individually. I enjoy learning new things.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="cv/CV_Yahya_Firdaus.pdf" download class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <!-- <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a> -->
+                          <!-- <a href="/images/myw3schoolsimage.jpg" download> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_programming_re_kg9v-1920w.webp" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
             </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">My Skills</a></li>
-                <li><a href="#section5">Bachelor's Thesis</a></li>
-                <li><a href="#section3">My Projects</a></li>
-                <li><a href="#section4">Contact Me</a></li>
-              </ul>
-            </nav>
-            <div class="copyright-text">
-              <p>Copyright 2019 Reflux Design</p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>Things I have developed</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-001.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-002.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-003.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-004.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-005.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-006.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-007.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-008.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-009.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2023</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Web Developer</span><small>Radya Digital</small></h3>
+                                  <p>Creating microservices using C# and Go programming languages. Also, developing a chatbot using the kata.ai platform. (01/2022-10/2023)</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2022</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Software Engineer</span><small>PT. Ciheul Technologies</small></h3>
+                                <p>Creating a website using the Python programming language with the Django framework. (02/2021-01/2022)</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>NLP Engineer</span><small>NLP LCI</small></h3>
+                                <p>Creating a speech recognition model using CMUSphinx, and a text-tospeech program. (01/2021-02/2021)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Mobile Developer<small>SCCIC ITB, Indihealth</small></h3>
+                                <p>Mobile development using the Kotlin programming language. (09/2020-11/2020)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Web Developer<small>PT Bio Farma</small></h3>
+                                <p>Creating a website using the C# programming language. (09/2019-02/2020)</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2020</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Ilmu Komputer</span><small>2016-2020</small></h3>
+                                  <p>Universitas Pendidikan Indonesia</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2016</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>IPA</span><small>2013-2016</small></h3>
+                                <p>SMAN 13 Bandung</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.759540024404!2d107.69874317410668!3d-6.919324567721734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd32254767fb%3A0xd419ba95053a81b4!2sJl.%20Sindangsari%2C%20Cipadung%20Kulon%2C%20Kec.%20Panyileukan%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040614!5e0!3m2!1sid!2sid!4v1712464156735!5m2!1sid!2sid" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Say hello</h3>
+                  <p class="footer-text mb-0">+6289-534-5777-590</p>
+                  <p><a href="mailto:hello@company.co">yhy.frds@gmail.com</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><br></li>
+                     <li><a href="#" class="uil uil-phone" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                     <li><a href="#" class="uil uil-envelope" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
+                </ul>
             </div>
           </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-12 col-12">
+                    <input type="text" disabled class="form-control" name="phone" value="+6289-534-5777-590" id="phone">
+                  </div>
+
+                  <div class="col-lg-12 col-12">
+                    <input type="text" disabled class="form-control" name="email" value="yhy.frds@gmail.com" id="email">
+                  </div>
+
+                  <div class="col-lg-12 col-12">
+                    <a href="https://www.linkedin.com/in/yahyafirdaus/"><input type="text" disabled class="form-control" name="linkedin" value="https://www.linkedin.com/in/yahyafirdaus/" id="linkedin"></a>
+                  </div>
+
+                  <div class="col-lg-12 col-12">
+                    <a href="github.com/yahya-firdaus"><input type="text" disabled class="form-control" name="linkedin" value="github.com/yahya-firdaus" id="linkedin"></a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <section class="section about-me" data-section="section1">
-        <div class="container">
-          <div class="section-heading">
-            <h2>About Me</h2>
-            <div class="line-dec"></div>
-            <p style="text-align: justify;">
-              Perkenalkan, nama saya Yahya Firdaus, biasa dipanggil Yahya. Saya merupakan lulusan S1 Prodi Ilmu Komputer dari Universitas Pendidikan Indonesia. Dengan pengalaman magang di BioFarma, SCCIC, NLP LCI, bekerja di Ciheul Technologies, dan mengerjakan beberapa proyek, di antarnya aplikasi android, website, ataupun desktop. Saya dapat mengikuti penggunaan tools untuk melakukan magang, bekerja, dan mengerjakan proyek, contohnya saya dapat mengikuti penggunaan kotlin pada pengembangan aplikasi android di tempat magang saat di SCCIC, penggunaan django saat bekerja di Ciheul Technologies. Juga pernah membuat sebuah game untuk tugas kuliah dan pernah membuat sebuah sumo robot.
-              <br>
-              Saya mempunyai hobi membaca novel dan komik, bermain laptop, juga hiking. Saya merupakan pribadi yang senang belajar hal-hal baru, mengeksplorasi suatu hal, terlebih pada bidang Data Mining, atau Al. Karena menurut saya hal-hal tersebut sangatlah seru dan membuat saya tertarik.
-              <br>
-              <br>
-              Saya memiliki pengalaman di organisasi, yaitu:
-              <br>1. Panitia Dinamik 12, staf divisi logistik
-              <br>2. Panitia Dinamik 13, staf divisi logistik
-              <br>3. Panitia Pengabdian Pada Masyarakat (P2M) 2018, staf divisi logistik
-              <br>4. Panitia TO SBMPTN KSE UPI 2019, ketua divisi PDD
-              <br>5. Asisten dosen Rangkaian Elektronika
-              <br>6. Asisten labroratorium Rangkaian Elektronika
-              <br>
-              <br>
-              Juga saya memiliki beberapa pengalaman pada perlombaan, yaitu:
-              <br>1. Finalis Techcomfest Mobile Apps Competition 2018
-              <br>2. Peserta Hackathon BRI 2020
-              <br>3. Peserta Hackathon UMKM 2020
-            </p>
-          </div>
-        </div>
-      </section>
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
 
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>My Skills</h2>
-            <div class="line-dec"></div>
-            <p style="text-align: justify;">
-              Saya memiliki beberapa kemampuan dalam bahasa pemrograman dan juga dalam memakai framework. Akan tetapi kemampuan saya tidak sebatas hanya pada beberapa bahasa pemrograman, software, maupun framework. Saya memiliki keinginan untuk belajar hal baru. Berikut ini kemampuan saya:
-            </p>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="second-service-icon service-icon"></div>
-                <h4>Programming Language</h4>
-                <p>Bahasa pemrograman yang saya kuasai yaitu antara lain C, C++, C#, Java, Javascript, PHP, Python, SQL, MySql, kotlin.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="third-service-icon service-icon"></div>
-                <h4>Software</h4>
-                <p>Software yang dapat saya gunakan yaitu antara lain Android Studio, Visual Studio, Google Colabs, Game Maker.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="first-service-icon service-icon"></div>
-                <h4>Framework</h4>
-                <p>Framework yang dapat saya gunakan yaitu antara lain Code Igniter, Laravel, Flask, Django, dan juga mencoba beberapa framework lainnya.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="fourth-service-icon service-icon"></div>
-                <h4>Other</h4>
-                <p>Saya memiliki kemampuan di NLP, Machine Learning, Computer Vision, dan Image Processing.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section about-me" data-section="section5">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Bachelor's Thesis</h2>
-            <div class="line-dec"></div>
-            <p style="text-align: justify;">
-              International English Language Testing System (IELTS) adalah salah satu tes evaluasi kemampuan berbahasa inggris, selain TOEFL dan TOEIC. Cotton (2001), berpendapat bahwa dalam pembuatan soal dapat menghabiskan lebih dari 50% dari jam waktunya untuk memikirkan satu buah set soal, oleh karena itu tentu dalam pembuatan soal IELTS ini membutuhkan waktu yang tidak sedikit dalam memikirkan kalimat pertanyaan dan jawabannya. Karena masalah ini, penelitian mengenai automatic question generation dilakukan dengan harapan dapat digunakan sebagai tools untuk menghasilkan kalimat pertanyaan dan jawabannya, sehingga dapat menghemat waktu dalam memikirkan pertanyaan dan jawabannya, akan tetapi soal yang dihasilkan difokuskan pada jenis soal short answer question di reading comprehension, karena untuk penelitian jenis soal lain membutuhkan metode penelitian yang berbeda. Soal-soal yang dihasilkan menggunakan sumber artikel dari berita dengan grammar yang terpercaya seperti CNN dan BBC. Juga dalam penelitian ini mengumpulkan kumpulan soal IELTS dengan jenis soal short answer question di bagian reading comprehension, kumpulan soal ini yang akan digunakan dalam penelitian untuk membandingkan kelayakan dengan data uji, yang menjadi kandidat soal. Sumber yang digunakan dalam penelitian untuk mengumpulkan soal-soal yang menjadi data latih berasal dari ebook dan website. Tahapan dari penelitian ini secara garis besar yaitu ekstraksi kalimat sederhana, klasifikasi soal, generate kalimat soal, dan yang terakhir membandingkan kandidat soal dengan data latih untuk menentukan kelayakan. Hasil dari evaluasi yang dilakukan adalah untuk parameter Grammatical Correctness menghasilkan persentase sebesar 59,52%, untuk parameter Answer Existence menghasilkan 95,24%, sedangkan untuk parameter Difficulty Index menghasilkan presentase sebesar 34,92%. Sehingga untuk rata-rata yang dihasilkan sebesar 63,23%.
-            </p>
-          </div>
-          <div class="right-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="assets/images/agq.png" alt="" />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4>User Interface</h4>
-                  <p style="text-align: justify;">
-                    Saya memakai bootstrap untuk membuat user interface dari website tersebut, sedangkan framework yang saya gunakan yaitu Flask dengan bahasa pemrograman python. Pada gambar disamping menampilkan halaman home dari website.
-                  </p>
-                  <div class="white-button">
-                    <a href="http://repository.upi.edu/57818/">Download Book</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section my-work" data-section="section3">
-        <div class="container">
-          <div class="section-heading">
-            <h2>My Projects</h2>
-            <div class="line-dec"></div>
-            <p style="text-align: justify;">
-              Saya memiliki beberapa pengalaman pada pengerjaan proyek. Adapun proyek yang saya kerjakan ada menghasilkan android, website, maupun desktop, serta saya juga pernah membuat game untuk tugas kuliah. Juga, saya pernah melakukan magang di Bio Farma dan SCCIC ITB. 
-            </p>
-          </div>
-          <div class="row">
-            <div class="isotope-wrapper">
-              <form class="isotope-toolbar">
-                <label
-                  ><input
-                    type="radio"
-                    data-type="*"
-                    checked=""
-                    name="isotope-filter"
-                  />
-                  <span>all</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="android"
-                    name="isotope-filter"
-                  />
-                  <span>android</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="website"
-                    name="isotope-filter"
-                  />
-                  <span>website</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="desktop"
-                    name="isotope-filter"
-                  />
-                  <span>desktop</span></label
-                >
-              </form>
-              <div class="isotope-box">
-                <div class="isotope-item" data-type="android">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/p_iloin.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/p_iloin.png"
-                        data-lightbox="image-1"
-                        data-title="iLoin"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>iLoin</h4>
-                      <span>Aplikasi berbasis android yang bertujuan untuk membantu seseorang belajar berbahasa Indonesia dengan beberapa fitur, diantaranya pelafalan dan juga mendengarkan. Menggunakan library text to speech dan speech recognition untuk membantu pengembangan pada fitur aplikasi ini.</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="website">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/p_kid.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/p_kid.png"
-                        data-lightbox="image-1"
-                        data-title="Digital Immunization Card"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Kartu Imunisasi Digital</h4>
-                      <span>Aplikasi berbasis website ini bertujuan untuk membantu orang yang melakukan imunisasi dengan cara melakukan pendataan. Software yang digunakan yaitu Visual Studio. Menggunakan metode three layer yang mana model dan controller dalam bentuk library, sehingga pengerjaan dapat dilakukan secara terpisah.</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="android">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/p_phydict.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/p_phydict.png"
-                        data-lightbox="image-1"
-                        data-title="Phydict"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Phydic</h4>
-                      <span>Sebuah aplikasi berbasis android dengan fitur kamus istilah dan penemu. Dikembangkan menggunakan software android studio, dengan bahasa java dan xml.</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="android">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/p_sera.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/p_sera.png"
-                        data-lightbox="image-1"
-                        data-title="Sera"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Sera</h4>
-                      <span>Aplikasi berbasis android yang berguna untuk membagikan pengalmannya dalam bentuk foto ataupun cerita. Dikembangkan menggunakan software android studio, dengan bahasa java dan xml.</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="desktop">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/p_find.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/p_find.png"
-                        data-lightbox="image-1"
-                        data-title="Game Find"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Game Find</h4>
-                      <span>Game ber genre labirin ini membantu pemahaman pemain mengenai bebatuan. Dikembangkan menggunakan software Game Studio.</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-me" data-section="section4">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact Me</h2>
-            <div class="line-dec"></div>
-            <span>
-              Berikut ini kontak saya yang dapat dihubungi.
-            </span>
-          </div>
-          <div class="row">
-            <div class="right-content">
-              <div class="container">
-                <form id="contact" action="" method="post">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <img style="max-width: 40px; max-height: 40px;" src="assets/images/contact_linkedin.png">
+                    <div class="col-lg-12 col-12">
+                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
                     </div>
-                    <div class="col-md-10">
-                      <fieldset>
-                        <a href="https://www.linkedin.com/in/yahya-firdaus-325907162/">
-                          <input
-                            style="font-size: 16pt;"
-                            type="text"
-                            class="form-control"
-                            id="name"
-                            value="Klik disini"
-                            readonly />
-                        </a>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-2">
-                      <img style="max-width: 40px; max-height: 40px;" src="assets/images/contact_gmail.png">
-                    </div>
-                    <div class="col-md-10">
-                      <fieldset>
-                        <input
-                          style="font-size: 16pt;"
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          value="yhy.frds@gmail.com"
-                          readonly
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-2">
-                      <img style="max-width: 40px; max-height: 40px;" src="assets/images/contact_wa.png">
-                    </div>
-                    <div class="col-md-10">
-                      <fieldset>
-                        <input
-                          style="font-size: 16pt;"
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          value="089-534-577-759-0"
-                          readonly
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-2">
-                      <img style="max-width: 40px; max-height: 40px;" src="assets/images/contact_line.png">
-                    </div>
-                    <div class="col-md-10">
-                      <fieldset>
-                        <input
-                          style="font-size: 16pt;"
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          value="yahyaasgart"
-                          readonly
-                        />
-                      </fieldset>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
+                    
+               </div>
           </div>
-        </div>
-      </section>
-    </div>
+     </footer>
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
-
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
-
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
   </body>
 </html>
